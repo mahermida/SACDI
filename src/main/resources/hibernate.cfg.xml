@@ -21,6 +21,7 @@
 		
 		<property name="hbm2ddl.auto">create</property>
 
-		
-	</session-factory>
+        <mapping class="mx.sacdi.entity.Usuario"/>
+
+    </session-factory>
 </hibernate-configuration>

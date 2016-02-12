@@ -10,19 +10,14 @@
 	<ui:composition>
 		<h:form>
 			<p:panelMenu style="text-align:left;">
-				<p:submenu label="Libros">
-					<p:menuitem value="Registrar Libro" 
-								url="/pages/libro/registroLibro.xhtml"/>
-					<p:menuitem value="Libros" 
-					url="/pages/usuario/listaLibro.xhtml"/>						
-				</p:submenu>
-				<p:submenu label="Usuarios">
-					<p:menuitem value="Registrar Usuario" 
-								url="/pages/usuario/registroUsuario.xhtml"/>
-					<p:menuitem value="Usuarios" 
-					url="/pages/usuario/listaUsuario.xhtml"/>						
-				</p:submenu>
-			</p:panelMenu>	
+                    <p:submenu label="Administrar">
+                        <p:menuitem value="Usuarios" url="/pages/usuario/registroUsuario.xhtml"/>
+                        <p:menuitem value="Maestros" url="/pages/usuario/registroUsuario.xhtml"/>
+                        <p:menuitem value="Alumnos" url="/pages/usuario/registroUsuario.xhtml"/>
+                        <p:menuitem value="Idiomas" url="/pages/usuario/registroUsuario.xhtml"/>
+                        <p:menuitem value="Grupos" url="/pages/usuario/registroUsuario.xhtml"/>
+                    </p:submenu>
+			</p:panelMenu>
 		</h:form>
 	</ui:composition>
 </body>
